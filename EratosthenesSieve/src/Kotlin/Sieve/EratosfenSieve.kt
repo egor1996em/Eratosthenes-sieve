@@ -1,6 +1,6 @@
 package Kotlin.Sieve
 
-class Eratosfen(val lastNumberForSearch :Int){
+class Eratosfen(private val lastNumberForSearch :Int){
 
     private val numbersRow :MutableSet<Int>
 
